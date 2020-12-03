@@ -7,4 +7,4 @@ RUN node -v
 RUN npm -v
 RUN npm i
 EXPOSE 5000
-CMD npm start
+CMD npm run start
