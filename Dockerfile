@@ -1,4 +1,4 @@
-FROM node
+FROM node:12
 LABEL name="cicd-back"
 LABEL version="1.0"
 COPY . /app
