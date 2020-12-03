@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start ./index.js --name cicd-back --watch",
-    "del": "pm2 delete cicd-back"
+    "start": "node ./index.js",
   },
   "keywords": [],
   "author": "",
