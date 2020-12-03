@@ -2,7 +2,7 @@ const http = require('http')
 
 const users = [
   { name: 'lili', age: 20 },
-  { name: 'leo', age: 12 },
+  { name: 'leo', age: 32 },
   { name: 'jojo', age: 12 },
 ]
 const server = http.createServer((req, res) => {
